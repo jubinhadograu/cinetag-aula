@@ -8,7 +8,7 @@ function Favoritos() {
     const [videos, setVideos] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/filmes?favorit=1')
+        fetch('https://my-json-server.typicode.com/jubinhadograu/fake-api/filmes')
             .then(resposta => resposta.json())
             .then(dados => {
                 setVideos(dados)
