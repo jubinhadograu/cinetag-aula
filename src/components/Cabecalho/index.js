@@ -16,6 +16,9 @@ function Cabecalho() {
                 <CabecalhoLink url="./Favoritos">
                     Favoritos
                 </CabecalhoLink>
+                <CabecalhoLink url='/Inserir'>
+                    Inserir
+                </CabecalhoLink>
             </nav>
         </header>
     )
